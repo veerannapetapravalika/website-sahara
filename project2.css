@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main{
+	height: 760px;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+	         rgba(0, 0, 0, 0.7)), url(background.png);
+}
+
+.navbar{
+	height: 12%;
+	width: 1200px;
+	display: flex;
+	margin-left: -30px;
+}
+
+.logo{
+	width: 50px;
+	cursor: pointer;
+	padding-left: 150px;
+	padding-top: 20px;
+}
+
+.menu-icon{
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+ul{
+	float: left;
+	display: flex;
+	padding-left: 800px;
+	margin-top: 30px;
+}
+
+ul li{
+	display: flex;
+	padding-left: 50px;
+}
+
+ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+ul li a:hover{
+	color: yellow;
+}
+
+.content{
+	height: auto;
+	margin: auto;
+	float: left;
+	position: relative;
+	width: 1200px;
+	margin-top: 12%;
+	color: white;
+}
+.content h1{
+	color: white;
+	font-size: 70px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding-left: 150px;
+}
+.content p{
+	padding-left: 150px;
+	font-size: 15px;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
+button{
+	width: 180px;
+	color: darkblue;
+	font-size: 12px;
+	padding: 12px 15px;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+	cursor: pointer;
+	margin-left: 300px;
+}
+
+button:hover{
+	background-color: lightblue;
+}
+
+.col{
+	height: auto;
+	margin: auto;
+	float: right;
+	position: relative;
+	width: 600px;
+	margin-top: -20%;
+	color: white;
+	line-height: 15px;
+	margin-top: -370px;
+}
+.card{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+}
+.card1{
+	background-image: url(picture-1.png);
+}
+.card2{
+	background-image: url(picture-2.png);
+}
+.card3{
+	background-image: url(picture-3.png);
+}
+.card4{
+	background-image: url(picture-4.png);
+}
+.card:hover{
+	transform: translateY(-10px);
+}
+.card p{
+	text-shadow: 0 0 15px #000;
+	font-size: 8px;
+}
